@@ -5,9 +5,9 @@ int main()
 int bt[20],p[20],wt[20],tat[20],pri[20],i,j,k,n,total=0,pos,temp;
 float avg_wt,avg_tat;
 clrscr();
-printf("Enter the process");
+printf("Enter the number of processes : ");
 scanf("%d",&n);
-printf("\n Enter the brust time:\n");
+printf("\n Enter the brust time: \n");
 for(i=0;i<n;i++)
 {
 printf("p%d",i+1);
