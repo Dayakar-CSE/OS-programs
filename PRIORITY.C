@@ -51,11 +51,12 @@ for(i=0;i<n;i++)
 {
 tat[i]=bt[i]+wt[i];
 total+=tat[i];
-printf("\n %d\t\t %d\t\t %d\t\t %d\t\t\t %d",p[i],bt[i],pri[i],wt[i],tat[i]);
+printf("\n p%d\t\t %d\t\t %d\t\t %d\t\t\t %d",p[i],bt[i],pri[i],wt[i],tat[i]);
 }
 avg_tat=(float) total/n;
 printf("\n\n Average waiting time =%f",avg_wt);
 printf("\n Average turnaround time=%f\n",avg_tat);
-return 0;
 getch();
+return 0;
+
 }
