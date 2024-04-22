@@ -109,5 +109,6 @@ if(count==pno)
 printf("\n The system is in a safe state!");
 else
 printf("\n The system is in a unsafe state!!");
+getch();
 return 0;
 }
